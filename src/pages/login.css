@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.external_container{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("netflixbackground.jpg");
+    background-repeat: repeat;  
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+.form_container{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    width: 25rem;
+}
+
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+.login_btn{
+    background-color: rgb(233, 7, 7);
+    color: white;
+    border-radius: 0;
+    width: 100%;
+    font-weight: 600;
+}
+
+.login_btn:hover{
+    background-color: rgb(184, 0, 0);
+    color: white;
+}
+
+p{
+    color: white;
+}
+

@@ -1,0 +1,42 @@
+.accordion-button{
+    background-color: rgba(38, 38, 38, 0.779);
+    box-shadow: none;
+    color: white;
+    font-size: clamp(1rem, 1.7vw, 1.7vw);
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+    background-color: rgba(38, 38, 38, 0.779);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgba(38, 38, 38, 0.779);
+    box-shadow: none;
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url('./plus.png');
+}
+
+.accordion-button::after{
+    background-image: url('./plus.png');
+}
+
+.accordion-collapse{
+    background-color: rgba(38, 38, 38, 0.779);
+    color: white;
+    border-top: 1px solid black;
+}
+
+.accordion-header:hover{
+    background-color: rgb(121, 121, 121);
+    box-shadow: none;
+}
+
+.accordion-body{
+    font-size: clamp(1rem, 1.7vw, 1.7vw);
+}
+
+

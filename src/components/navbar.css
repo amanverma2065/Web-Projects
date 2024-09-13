@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inner-container{
+    min-height: 10vh;
+}
+
+.inner-container .logo-img{
+    width: clamp(100px, 13vw, 100vw);
+}
+
+.signin-btn{
+    background-color: rgb(233,7,7);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.signin-btn:hover{
+    background-color: rgb(184, 0, 0);
+    color: white;
+}
