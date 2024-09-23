@@ -5,7 +5,7 @@ const Card2 = () => {
     return (
         <>
             <div className="container-fluid bg-black d-flex justify-content-center align-items-center p-5" style={{ minHeight: '60vh' }}>
-                <div className="row">
+                <div className="row flex-wrap-reverse">
                     <div className="container-fluid col-lg-6 col-md-6 d-flex justify-content-center align-items-center" >
                         <img src={feature2} alt="" style={{width:'80%', objectFit:'contain'}}/>
                     </div>
